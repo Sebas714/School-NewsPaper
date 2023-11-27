@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital School Newspaper</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #007BFF;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+
+    section {
+      padding: 20px;
+      margin: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #007BFF;
+    }
+
+    .lede {
+      font-weight: bold;
+    }
+
+    .byline {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Digital School Newspaper</h1>
+  </header>
+
+  <nav>
+    <a href="#sports">Sports</a> |
+    <a href="#arts">Arts</a> |
+    <a href="#science">Science</a> |
+    <a href="#school-news">School News</a> |
+    <a href="#national-news">National News</a>
+  </nav>
+
+  <section id="sports">
+    <h2>Sports</h2>
+    <p class="lede">Exciting victory for the school soccer team</p>
+    <p class="byline">By John Doe</p>
+    <p>Details about the match and standout players...</p>
+  </section>
+
+  <section id="arts">
+    <h2>Arts</h2>
+    <p class="lede">School play receives standing ovation on opening night</p>
+    <p class="byline">By Jane Smith</p>
+    <p>Highlights of the play and reactions from the audience...</p>
+  </section>
+
+  <section id="science">
+    <h2>Science</h2>
+    <p class="lede">Students conduct groundbreaking experiment in chemistry class</p>
+    <p class="byline">By Alex Johnson</p>
+    <p>Explanation of the experiment and its significance...</p>
+  </section>
+
+  <section id="school-news">
+    <h2>School News</h2>
+    <p class="lede">New school policies announced by the administration</p>
+    <p class="byline">By Emily Davis</p>
+    <p>Details about the changes and reactions from students...</p>
+  </section>
+
+  <section id="national-news">
+    <h2>National News</h2>
+    <p class="lede">Important national event impacts our community</p>
+    <p class="byline">By Michael Brown</p>
+    <p>Local perspectives on the national event and its consequences...</p>
+  </section>
+</body>
+</html>
